@@ -12,3 +12,13 @@
 
 
 
+ext {
+    compileSdkVersion = 28
+    // You can also create properties to specify versions for dependencies.
+    // Having consistent versions between modules can avoid conflicts with behavior.
+    supportLibVersion = "29.0.1"
+}
+
+repositories {
+    google()
+}
